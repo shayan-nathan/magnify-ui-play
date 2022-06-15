@@ -1,0 +1,30 @@
+.integrations-main {
+  .c-drop-down {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .c-button--right {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+  }
+}
+
+#actions {
+  .ant-form-item-control-input-content {
+    height: auto;
+  }
+}
+
+#rename {
+  .ant-form-item-label > label {
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .ant-input-password,
+  .ant-form-item-control-input-content {
+    height: 40px;
+  }
+}

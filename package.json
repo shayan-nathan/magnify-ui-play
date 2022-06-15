@@ -1,0 +1,94 @@
+{
+  "name": "encore-dash-fe",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "antd": "^4.19.0",
+    "aws-amplify": "^4.2.10",
+    "axios": "^0.21.4",
+    "classnames": "^2.3.1",
+    "dayjs": "^1.10.7",
+    "mobx": "^6.5.0",
+    "mobx-react-lite": "^3.4.0",
+    "node-sass": "^6.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-flow-renderer": "^9.6.11",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "4.0.3",
+    "react-use": "^17.3.1",
+    "swagger-ui-react": "^4.10.3"
+  },
+  "devDependencies": {
+    "@reduxjs/toolkit": "^1.5.1",
+    "@testing-library/dom": "^8.11.3",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-redux": "^7.1.7",
+    "@types/react-router-dom": "^5.1.8",
+    "@types/swagger-ui-react": "^4.1.1",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "@typescript-eslint/parser": "^4.31.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-react-app": "^6.0.0",
+    "eslint-plugin-flowtype": "^5.10.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.26.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.1.2",
+    "prettier": "^2.4.1",
+    "pretty-quick": "^3.1.1",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --verbose",
+    "test-coverage": "npm test -- --coverage",
+    "eject": "react-scripts eject",
+    "lint": "eslint --cache \"{src,tests}/**/*.{ts,tsx,js}\"",
+    "lint:fix": "eslint --cache \"{src,tests}/**/*.{ts,tsx,js}\" --fix",
+    "postinstall": "husky install",
+    "pre-commit": "lint-staged",
+    "pre-push": "yarn test --watchAll=false"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!<rootDir>/node_modules/",
+      "!src/**/*.store.{js,jsx,ts,tsx}"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 90,
+        "lines": 90,
+        "statements": 90
+      }
+    }
+  }
+}

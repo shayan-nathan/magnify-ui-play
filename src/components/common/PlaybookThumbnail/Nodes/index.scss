@@ -1,0 +1,17 @@
+@import './End/End.scss';
+@import './Segment/Segment.scss';
+
+.playbook-flow {
+  // reactFlow override
+  // hide the card dots
+  .react-flow__handle {
+    width: 0;
+    height: 0;
+  }
+}
+
+.c-node {
+  &__section {
+    background-color: #fff;
+  }
+}

@@ -1,0 +1,11 @@
+const {
+  REACT_APP_REGION: REGION,
+  REACT_APP_USER_POOL_ID: USER_POOL_ID,
+  REACT_APP_APP_CLIENT_ID: APP_CLIENT_ID,
+} = process.env
+
+export const cognitoConfig = {
+  REGION,
+  USER_POOL_ID,
+  APP_CLIENT_ID,
+}

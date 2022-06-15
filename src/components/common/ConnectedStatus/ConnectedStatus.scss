@@ -1,0 +1,13 @@
+.c-connected {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+
+  &--status {
+    color: $color-font-secondary;
+
+    span {
+      margin-left: 10px;
+    }
+  }
+}

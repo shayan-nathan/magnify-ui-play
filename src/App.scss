@@ -1,0 +1,29 @@
+// libraries
+@import 'antd/dist/antd.css';
+
+// variables
+@import './styles/variables.scss';
+@import './styles/media-queries-mixins.scss';
+@import './styles/spacing-helpers.scss';
+
+// overrides
+@import './styles/andtd-overrides.scss';
+
+// styles
+@import './pages/styles.scss';
+@import './components/styles.scss';
+
+.c-text--center {
+  text-align: center;
+}
+
+body {
+  font-family: 'Hknova', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 16px;
+  background-color: $color-gray-1;
+  line-height: 28px;
+}
+
+.secondary-text {
+  color: $color-font-secondary;
+}

@@ -1,0 +1,72 @@
+$builder-action-color: #3e4558;
+
+.action-source {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+
+  .c-targeting {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(205, 208, 216, 0.5);
+    padding: 0;
+
+    path,
+    rect {
+      fill: $builder-action-color;
+    }
+
+    circle {
+      stroke: $builder-action-color;
+    }
+
+    g {
+      path {
+        stroke: $builder-action-color;
+      }
+    }
+
+    &--circle {
+      border-radius: 50%;
+      width: 52px;
+      height: 52px;
+    }
+
+    &--rhomb {
+      border-radius: 6px;
+      transform: rotate(45deg);
+      width: 40px;
+      height: 40px;
+      margin-bottom: 4px;
+
+      svg {
+        transform: rotate(-45deg);
+      }
+    }
+
+    &--square {
+      width: 44px;
+      height: 44px;
+      border-radius: 6px;
+    }
+  }
+
+  .action-btn--box {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .source-name {
+    padding-left: 8px;
+  }
+
+  .c-disabled {
+    opacity: 0.4;
+  }
+}

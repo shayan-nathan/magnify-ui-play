@@ -1,0 +1,497 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PlaybookSidebar /> component renders correctly all the elements 1`] = `
+<aside
+  class="ant-layout-sider ant-layout-sider-dark c-sider playbook-sidebar"
+  data-testid="playbook-sidebar"
+  style="flex: 0 0 265px; max-width: 265px; min-width: 265px; width: 265px;"
+>
+  <div
+    class="ant-layout-sider-children"
+  >
+    <span
+      class="c-sider__header"
+      data-testid="playbook-header"
+    >
+      Playbook builder
+    </span>
+    <span
+      class="ant-input-affix-wrapper"
+    >
+      <span
+        class="ant-input-prefix"
+      >
+        <svg>
+          search.svg
+        </svg>
+      </span>
+      <input
+        class="ant-input"
+        data-testid="search"
+        placeholder="search"
+        type="text"
+        value=""
+      />
+    </span>
+    <div
+      class="action-group"
+    >
+      <h5
+        class="c-heading c-heading--5 undefined"
+        data-testid="heading"
+      >
+        TARGETING
+      </h5>
+      <div
+        class="action-source"
+        data-testid="action-source"
+        draggable="true"
+      >
+        <div
+          class="action-btn--box"
+          data-testid="source-box"
+        >
+          <button
+            class="ant-btn c-targeting c-targeting--circle"
+            data-testid="source-btn"
+            type="button"
+          >
+            <img
+              alt="Segments"
+              data-testid="source-image"
+              draggable="false"
+              src="segments.svg"
+            />
+          </button>
+        </div>
+        <div
+          class="source-name"
+          data-testid="source-name"
+        >
+          <span>
+            Segments
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="action-group"
+    >
+      <h5
+        class="c-heading c-heading--5 undefined"
+        data-testid="heading"
+      >
+        RULES
+      </h5>
+      <div
+        class="action-source"
+        data-testid="action-source"
+        draggable="true"
+      >
+        <div
+          class="action-btn--box"
+          data-testid="source-box"
+        >
+          <button
+            class="ant-btn c-targeting c-targeting--rhomb"
+            data-testid="source-btn"
+            type="button"
+          >
+            <img
+              alt="If / Else"
+              data-testid="source-image"
+              draggable="false"
+              src="if_else.svg"
+            />
+          </button>
+        </div>
+        <div
+          class="source-name"
+          data-testid="source-name"
+        >
+          <span>
+            If / Else
+          </span>
+        </div>
+      </div>
+      <div
+        class="action-source"
+        data-testid="action-source"
+        draggable="true"
+      >
+        <div
+          class="action-btn--box"
+          data-testid="source-box"
+        >
+          <button
+            class="ant-btn c-targeting c-targeting--rhomb"
+            data-testid="source-btn"
+            type="button"
+          >
+            <img
+              alt="Wait for trigger"
+              data-testid="source-image"
+              draggable="false"
+              src="wait_for_trigger.svg"
+            />
+          </button>
+        </div>
+        <div
+          class="source-name"
+          data-testid="source-name"
+        >
+          <span>
+            Wait for trigger
+          </span>
+        </div>
+      </div>
+      <div
+        class="action-source"
+        data-testid="action-source"
+        draggable="true"
+      >
+        <div
+          class="action-btn--box"
+          data-testid="source-box"
+        >
+          <button
+            class="ant-btn c-targeting c-targeting--rhomb"
+            data-testid="source-btn"
+            type="button"
+          >
+            <img
+              alt="Time delay"
+              data-testid="source-image"
+              draggable="false"
+              src="time_delay.svg"
+            />
+          </button>
+        </div>
+        <div
+          class="source-name"
+          data-testid="source-name"
+        >
+          <span>
+            Time delay
+          </span>
+        </div>
+      </div>
+      <div
+        class="action-source"
+        data-testid="action-source"
+        draggable="true"
+      >
+        <div
+          class="action-btn--box"
+          data-testid="source-box"
+        >
+          <button
+            class="ant-btn c-targeting c-targeting--rhomb"
+            data-testid="source-btn"
+            type="button"
+          >
+            <img
+              alt="Loop"
+              data-testid="source-image"
+              draggable="false"
+              src="loop.svg"
+            />
+          </button>
+        </div>
+        <div
+          class="source-name"
+          data-testid="source-name"
+        >
+          <span>
+            Loop
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="action-group"
+    >
+      <h5
+        class="c-heading c-heading--5 undefined"
+        data-testid="heading"
+      >
+        ACTIONS
+      </h5>
+      <ul
+        class="ant-menu ant-menu-root ant-menu-inline ant-menu-light"
+        data-menu-list="true"
+        data-testid="action-menu"
+        role="menu"
+        style="width: 100%;"
+        tabindex="0"
+      >
+        <li
+          class="ant-menu-submenu ant-menu-submenu-inline"
+          data-testid="submenu-platform"
+          role="none"
+        >
+          <div
+            aria-controls="rc-menu-uuid-test-Salesforce-popup"
+            aria-expanded="false"
+            aria-haspopup="true"
+            class="ant-menu-submenu-title"
+            data-menu-id="rc-menu-uuid-test-Salesforce"
+            role="menuitem"
+            style="padding-left: 0px;"
+            tabindex="-1"
+          >
+            <svg>
+              salesforce.svg
+            </svg>
+            <span
+              class="submenu-icon icon-reverse"
+            >
+              <svg>
+                arrow_top.svg
+              </svg>
+            </span>
+            <span
+              class="ant-menu-title-content"
+            >
+              Salesforce
+            </span>
+            <span
+              class="submenu-icon"
+            >
+              3
+            </span>
+          </div>
+        </li>
+        <li
+          class="ant-menu-submenu ant-menu-submenu-inline"
+          data-testid="submenu-platform"
+          role="none"
+        >
+          <div
+            aria-controls="rc-menu-uuid-test-Marketo-popup"
+            aria-expanded="false"
+            aria-haspopup="true"
+            class="ant-menu-submenu-title"
+            data-menu-id="rc-menu-uuid-test-Marketo"
+            role="menuitem"
+            style="padding-left: 0px;"
+            tabindex="-1"
+          >
+            <svg>
+              marketo.svg
+            </svg>
+            <span
+              class="submenu-icon icon-reverse"
+            >
+              <svg>
+                arrow_top.svg
+              </svg>
+            </span>
+            <span
+              class="ant-menu-title-content"
+            >
+              Marketo
+            </span>
+            <span
+              class="submenu-icon"
+            >
+              3
+            </span>
+          </div>
+        </li>
+      </ul>
+      <div
+        aria-hidden="true"
+        style="display: none;"
+      >
+        <div
+          class="action-source"
+          data-testid="action-source"
+          draggable="true"
+        >
+          <div
+            class="action-btn--box"
+            data-testid="source-box"
+          >
+            <button
+              class="ant-btn c-targeting c-targeting--square"
+              data-testid="source-btn"
+              type="button"
+            >
+              <img
+                alt="Update lead"
+                data-testid="source-image"
+                draggable="false"
+                src="update_lead.svg"
+              />
+            </button>
+          </div>
+          <div
+            class="source-name"
+            data-testid="source-name"
+          >
+            <span>
+              Update lead
+            </span>
+          </div>
+        </div>
+        <div
+          class="action-source"
+          data-testid="action-source"
+          draggable="true"
+        >
+          <div
+            class="action-btn--box"
+            data-testid="source-box"
+          >
+            <button
+              class="ant-btn c-targeting c-targeting--square"
+              data-testid="source-btn"
+              type="button"
+            >
+              <img
+                alt="Send email"
+                data-testid="source-image"
+                draggable="false"
+                src="send_email.svg"
+              />
+            </button>
+          </div>
+          <div
+            class="source-name"
+            data-testid="source-name"
+          >
+            <span>
+              Send email
+            </span>
+          </div>
+        </div>
+        <div
+          class="action-source"
+          data-testid="action-source"
+          draggable="true"
+        >
+          <div
+            class="action-btn--box"
+            data-testid="source-box"
+          >
+            <button
+              class="ant-btn c-targeting c-targeting--square"
+              data-testid="source-btn"
+              type="button"
+            >
+              <img
+                alt="Create opportunity"
+                data-testid="source-image"
+                draggable="false"
+                src="create_opportunity.svg"
+              />
+            </button>
+          </div>
+          <div
+            class="source-name"
+            data-testid="source-name"
+          >
+            <span>
+              Create opportunity
+            </span>
+          </div>
+        </div>
+        <div
+          class="action-source"
+          data-testid="action-source"
+          draggable="true"
+        >
+          <div
+            class="action-btn--box"
+            data-testid="source-box"
+          >
+            <button
+              class="ant-btn c-targeting c-targeting--square"
+              data-testid="source-btn"
+              type="button"
+            >
+              <img
+                alt="Update lead"
+                data-testid="source-image"
+                draggable="false"
+                src="update_lead.svg"
+              />
+            </button>
+          </div>
+          <div
+            class="source-name"
+            data-testid="source-name"
+          >
+            <span>
+              Update lead
+            </span>
+          </div>
+        </div>
+        <div
+          class="action-source"
+          data-testid="action-source"
+          draggable="true"
+        >
+          <div
+            class="action-btn--box"
+            data-testid="source-box"
+          >
+            <button
+              class="ant-btn c-targeting c-targeting--square"
+              data-testid="source-btn"
+              type="button"
+            >
+              <img
+                alt="Send email"
+                data-testid="source-image"
+                draggable="false"
+                src="send_email.svg"
+              />
+            </button>
+          </div>
+          <div
+            class="source-name"
+            data-testid="source-name"
+          >
+            <span>
+              Send email
+            </span>
+          </div>
+        </div>
+        <div
+          class="action-source"
+          data-testid="action-source"
+          draggable="true"
+        >
+          <div
+            class="action-btn--box"
+            data-testid="source-box"
+          >
+            <button
+              class="ant-btn c-targeting c-targeting--square"
+              data-testid="source-btn"
+              type="button"
+            >
+              <img
+                alt="Create opportunity"
+                data-testid="source-image"
+                draggable="false"
+                src="create_opportunity.svg"
+              />
+            </button>
+          </div>
+          <div
+            class="source-name"
+            data-testid="source-name"
+          >
+            <span>
+              Create opportunity
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</aside>
+`;

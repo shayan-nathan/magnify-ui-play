@@ -1,0 +1,20 @@
+.api-docs {
+  .sidenav {
+    position: fixed;
+
+    textarea {
+      width: 100%;
+    }
+  }
+
+  .content {
+    background-color: #fff;
+    padding: 24;
+    margin: 0;
+    min-height: 280px;
+  }
+}
+
+.swagger-ui .wrapper {
+  max-width: 784px !important;
+}

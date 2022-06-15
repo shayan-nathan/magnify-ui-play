@@ -1,0 +1,31 @@
+.integrations-main {
+  padding: 30px;
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+
+  .c-flex--center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .c-flex--start {
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .c-source--name {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .c-button--1.ant-btn {
+    min-width: 203px;
+  }
+
+  .c-card.c-card--1 {
+    padding: 20px 80px 20px 30px; 
+  }
+}

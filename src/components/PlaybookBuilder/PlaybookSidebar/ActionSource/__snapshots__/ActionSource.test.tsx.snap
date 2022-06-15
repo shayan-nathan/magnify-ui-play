@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ActionSource /> component renders correctly 1`] = `
+<div
+  class="action-source"
+  data-testid="action-source"
+  draggable="true"
+>
+  <div
+    class="action-btn--box"
+    data-testid="source-box"
+  >
+    <button
+      class="ant-btn c-targeting c-targeting--circle"
+      data-testid="source-btn"
+      type="button"
+    >
+      <img
+        alt="Segments"
+        data-testid="source-image"
+        draggable="false"
+        src="segments.svg"
+      />
+    </button>
+  </div>
+  <div
+    class="source-name"
+    data-testid="source-name"
+  >
+    <span>
+      Segments
+    </span>
+  </div>
+</div>
+`;

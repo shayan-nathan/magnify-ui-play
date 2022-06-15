@@ -1,0 +1,115 @@
+@import './ActionSource/ActionSource.scss';
+@import './SidebarSearch/SidebarSearch.scss';
+
+.playbook-sidebar {
+  overflow-y: auto;
+
+  .c-sider__header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: $color-primary;
+    border-width: 0;
+  }
+
+  .action-group {
+    margin-bottom: 24px;
+  }
+
+  .ant-menu {
+    color: $color-secondary-dark-blue;
+  }
+
+  .submenu-icon {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    position: absolute;
+    width: 24px;
+    height: 20px;
+    font-size: 14px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.icon-reverse {
+      display: none;
+    }
+  }
+
+  .ant-menu-sub {
+    &.ant-menu-inline {
+      background-color: transparent;
+    }
+  }
+
+  ant-menu-inline {
+    > .ant-menu-submenu {
+      > .ant-menu-submenu-title {
+        height: 28px;
+        line-height: 28px;
+      }
+    }
+  }
+
+  .ant-menu-inline .ant-menu-submenu-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .ant-menu-title-content {
+    border-width: 0;
+    margin-left: 8px;
+  }
+
+  .ant-menu-submenu {
+    .ant-menu-submenu-title {
+      &:hover {
+        color: $color-font-main;
+
+        .submenu-icon {
+          display: none;
+
+          &.icon-reverse {
+            background-color: #d6d7d8;
+            display: flex;
+            transform: rotate(180deg);
+          }
+        }
+      }
+    }
+
+    &-open {
+      .ant-menu-submenu-title {
+        &:hover {
+          .submenu-icon {
+            &.icon-reverse {
+              display: flex;
+              transform: rotate(0deg);
+            }
+          }
+        }
+
+        .submenu-icon {
+          display: none;
+
+          &.icon-reverse {
+            display: flex;
+          }
+        }
+      }
+    }
+  }
+
+  .action-group:nth-of-type(2) {
+    .action-source:not(:last-child) {
+      margin-bottom: 4px;
+    }
+  }
+
+  &::-webkit-scrollbar {
+    width: 2px;
+  }
+
+  @include thin-scrollbar;
+}

@@ -1,0 +1,70 @@
+@import './SegmentSidebar/SegmentSidebar.scss';
+@import './SegmentCriteria/SegmentCriteria.scss';
+@import './SegmentDescription/SegmentDescription.scss';
+$top-navbar-height: 80px;
+
+.segment-builder {
+  z-index: 10;
+
+  .ant-layout {
+    background-color: #fdfdfd;
+    flex-direction: column;
+  }
+
+  &__sider {
+    background-color: transparent;
+    padding-right: 25px;
+  }
+
+  .ant-drawer-body {
+    padding: 25px;
+    background-color: #fff;
+  }
+
+  .grow {
+    flex-grow: 1;
+  }
+
+  .heading {
+    color: #484b4f;
+    display: flex;
+    align-items: center;
+
+    svg {
+      width: 25px;
+      height: 25px;
+      margin-right: 15px;
+
+      path {
+        fill: #484b4f;
+      }
+    }
+  }
+
+  .segment__name {
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .close__btn {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .attributes {
+    display: flex;
+    align-items: center;
+    color: rgba(72, 75, 79, 0.6);
+
+    &__icon {
+      margin-right: 8px;
+
+      path {
+        fill: rgba(72, 75, 79, 0.6);
+      }
+    }
+  }
+}

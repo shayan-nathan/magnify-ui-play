@@ -1,0 +1,16 @@
+.segment-sidebar {
+  @import './SidebarListView/SidebarListView.scss';
+  @import './BreadcrumbSidebar/BreadcrumbSidebar.scss';
+
+  // TODO: Remove This is won't be used in the future it was used for back navigation on breadcrumbs
+  // .back__button {
+  //   svg {
+  //     margin-right: 8px;
+  //   }
+
+  //   font-weight: 600;
+  //   font-size: 12px;
+  //   line-height: 24px;
+  //   color: #484b4f;
+  // }
+}

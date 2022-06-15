@@ -1,0 +1,88 @@
+.playbook-flow {
+  flex-direction: column;
+  display: flex;
+  height: 100%;
+
+  .react-flow__node a {
+    font-weight: 700;
+    color: $color-black-1;
+  }
+
+  .react-flow__node.dark-node {
+    background: $color-blue;
+    color: $color-gray-4;
+  }
+
+  .react-flow__node.dark {
+    background: $color-dark-gray-1;
+    color: $color-gray-4;
+  }
+
+  .react-flow__node-selectorNode {
+    font-size: 12px;
+    background: $color-gray-5;
+    border: 1px solid $color-dark-gray;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .react-flow {
+    &__controls {
+      bottom: auto;
+      top: 170px;
+      left: 350px;
+      position: fixed;
+    }
+  }
+
+  .react-flow__node-selectorNode .react-flow__handle {
+    border-color: $color-gray-5;
+  }
+
+  @media screen and (min-width: 768px) {
+    .overview-example__add {
+      display: block;
+    }
+  }
+
+  .flow-wrapper {
+    flex-grow: 1;
+    height: 100%;
+  }
+
+  .react-flow__pane {
+    background-color: transparent;
+  }
+
+  foreignObject {
+    text-align: center;
+  }
+
+  .react-flow__node-default,
+  .react-flow__node-input {
+    .react-flow__handle {
+      opacity: 0;
+    }
+  }
+
+  // Nodes + edges transition CSS
+  .react-flow__node.react-flow__node-segment,
+  .react-flow__node.react-flow__node-end {
+    transition: transform 0.4s ease-in 0s;
+  }
+
+  /* add transition for moving the canvas */
+  // .react-flow__edges g,
+  .react-flow__edges,
+  .react-flow__edges path,
+  .react-flow__edges foreignObject {
+    transition: all 0.4s ease-in 0s;
+  }
+}
+
+/* Experiment */
+.playbook-flow {
+  .flow-wrapper {
+    overflow: auto;
+  }
+}

@@ -1,0 +1,22 @@
+@import './common/styles.scss';
+@import './Navigation/Navigation.scss';
+@import './SideNav/SideNav.scss';
+@import './Auth/SignIn/SignIn.scss';
+@import './Auth/ResetPass/ResetPass.scss';
+@import './Sources/Sources.scss';
+@import './Sources/SourceItem/SourceItem.scss';
+@import './Insights/Insights.scss';
+@import './Insights/InsightSources/InsightSources.scss';
+@import './Auth/ChangePass/ChangePass.scss';
+@import './OAuth/OAuth.scss';
+@import './TrayAuthentication/TrayAuthentication';
+// Account settings styles
+@import './AccountSettings/Profile/Profile.scss';
+@import './AccountSettings/Users/Users.scss';
+@import './AccountSettings/Groups/Groups.scss';
+@import './AccountSettings/Notifications/Notifications.scss';
+// Playbook
+@import './PlaybookTarget/PlaybookTarget.scss';
+@import './PlaybookBuilder/index.style.scss';
+
+@import './NotificationsPopUp/NotificationsPopUp.scss';

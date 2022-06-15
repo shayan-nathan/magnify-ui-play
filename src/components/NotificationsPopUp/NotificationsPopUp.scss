@@ -1,0 +1,90 @@
+.notifications-popup {
+  left: 6px !important;
+  max-width: 248px;
+  width: 100%;
+  position: fixed;
+
+  .ant-popover-inner-content {
+    padding: 16px 26px;
+    max-height: 390px;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      width: 5px;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+      background: $color-font-secondary;
+      border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    &::-webkit-scrollbar-thumb:hover {
+      background: #424242;
+    }
+  }
+
+  .popup-content {
+
+    .ant-row {
+      justify-content: space-between;
+    }
+
+    .btn-view-all {
+      display: flex;
+      font-weight: normal;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    .ant-btn-link {
+      font-weight: normal;
+    }
+  }
+}
+
+.notification {
+  &-card {
+    border-left: 2px solid $color-red;
+    padding-left: 15px;
+    margin-bottom: 30px;
+
+    &--low {
+      border-color: $color-light-blue;
+    }
+
+    &--high {
+      border-color: $color-red;
+    }
+  }
+
+  &-time {
+    color: $color-font-secondary;
+  }
+}
+
+.notifications-popup {
+  .ant-popover-arrow {
+    display: none;
+  }
+}
+
+// .bell:after {
+//   content: '';
+//   background: url('../../assets/images/bell.svg');
+//   background-repeat: no-repeat;
+//   width: 20px;
+//   height: 20px;
+//   display: inline-flex;
+// }
+
+// .bell:hover {
+//   cursor: url('../../assets/icons/hand.svg'), pointer;
+// }
+
+.ant-badge-count {
+  box-shadow: 0 0 0 1px $color-primary;
+}

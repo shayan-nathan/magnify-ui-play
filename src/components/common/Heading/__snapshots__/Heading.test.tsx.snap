@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Heading /> renderes with the correct content 1`] = `
+<h1
+  class="c-heading c-heading--1 undefined"
+  data-testid="heading"
+>
+  My Heading
+</h1>
+`;

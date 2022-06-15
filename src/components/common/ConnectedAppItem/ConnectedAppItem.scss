@@ -1,0 +1,22 @@
+.c-app {
+  &__item {
+    padding: 12px 10px;
+    display: flex;
+    margin-bottom: 10px;
+    height: 100%;
+    align-items: center;
+  }
+
+  &__name {
+    padding-left: 10px;
+  }
+
+  &__options {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    color: #999999;
+    text-align: right;
+    flex-grow: 1;
+  }
+}

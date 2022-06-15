@@ -1,0 +1,9 @@
+.sidenav {
+  background-color: $color-gray-1;
+  transition: 0.5s;
+  .sidenav__header {
+    font-weight: bold;
+    margin-bottom: 13px;
+    display: block;
+  }
+}

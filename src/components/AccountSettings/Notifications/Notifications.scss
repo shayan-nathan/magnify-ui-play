@@ -1,0 +1,40 @@
+.notifications {
+  &.view--all {
+    .notification {
+      &-card {
+        border-left-width: 4px;
+        margin-bottom: 0;
+        padding: 10px 0;
+      }
+
+      &-content {
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-top: 1px solid $border-color;
+        font-size: 14px;
+
+        &:last-of-type {
+          border-bottom: 1px solid $border-color;
+        }
+      }
+
+      &-text {
+        p {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+.btn-circle {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  padding: 0px 5px;
+  color: #8e8e8e;
+}
+
+.remove-notification--modal {
+  text-align: center;
+}

@@ -1,0 +1,71 @@
+// .react-flow__node-thumbnail,
+// .react-flow__node-end {
+//   border: 1px $border-color solid;
+//   padding: 4px;
+//   width: 430px;
+//   box-shadow: 0px 2px 6px 3px rgba(0, 0, 0, 0.08);
+// }
+
+// .thumbnail {
+//   &__label {
+//     top: -35px;
+//     font-size: 12px;
+//     line-height: 24px;
+//     font-weight: bold;
+//     position: absolute;
+//     color: $color-primary;
+//   }
+
+//   &__filter {
+//     position: absolute;
+//     bottom: -38px;
+//     color: $color-light-blue;
+//     left: 0;
+//     right: 0;
+//     font-size: 14px;
+//     font-weight: 500;
+//     text-align: center;
+//     background-color: $color-white;
+
+//     .filter--text:hover {
+//       cursor: pointer;
+//     }
+//   }
+
+//   &__content {
+//     padding: 10px;
+//     display: flex;
+//     font-size: 14px;
+
+//     &.left--border {
+//       border-left-width: 3px;
+//       border-left-style: solid;
+//     }
+
+//     &--right {
+//       font-size: 24px;
+//       color: $border-color;
+
+//       svg {
+//         transform: rotate(90deg);
+//       }
+//     }
+//   }
+
+//   &__icon {
+//     margin-right: 10px;
+//   }
+
+//   &__text {
+//     flex-grow: 1;
+//   }
+// }
+
+// .playbook-flow {
+//   // reactFlow override
+//   // hide the card dots
+//   .react-flow__handle {
+//     width: 0;
+//     height: 0;
+//   }
+// }

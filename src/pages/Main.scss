@@ -1,0 +1,23 @@
+#root,
+.App,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.ant-layout {
+  height: 100%;
+  flex-direction: row;
+}
+
+.ant-layout.ant-layout-has-sider > .ant-layout {
+  width: 100%;
+}
+
+.centered-spiner {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}

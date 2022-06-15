@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SidebarSearch /> component renders correctly 1`] = `
+<DocumentFragment>
+  <span
+    class="ant-input-affix-wrapper"
+  >
+    <span
+      class="ant-input-prefix"
+    >
+      <svg>
+        search.svg
+      </svg>
+    </span>
+    <input
+      class="ant-input"
+      data-testid="search"
+      placeholder="search"
+      type="text"
+      value=""
+    />
+  </span>
+</DocumentFragment>
+`;

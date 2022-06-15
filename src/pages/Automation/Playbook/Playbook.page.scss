@@ -1,0 +1,71 @@
+.c-app {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.playbook-builder {
+  background-color: $color-white;
+
+  .c-sider__header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: $color-primary;
+    border-width: 0;
+  }
+
+  .playbook--description {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  #change_name_form {
+    .ant-form-item {
+      width: 100%;
+      margin-bottom: 0;
+    }
+
+    .ant-form-item-control {
+      margin-bottom: 0;
+    }
+
+    .ant-form-item-control-input-content {
+      height: 50px;
+    }
+
+    .c-button--1.ant-btn {
+      max-height: 50px;
+    }
+  }
+
+  .playbook-top {
+    padding-bottom: 15px;
+    border-bottom: 2px solid $border-color;
+    align-items: flex-end;
+  }
+
+  .playbook-name {
+    max-width: 400px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}
+
+.playbook-builder {
+  .content {
+    padding-top: 15px;
+  }
+}
+
+.c-builider-icon__right {
+  transform: rotate(90deg);
+  margin-left: auto !important;
+}
+
+.content.canvas-builder {
+  padding-bottom: 0;
+  padding-right: 0;
+}

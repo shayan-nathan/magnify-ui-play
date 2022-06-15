@@ -1,0 +1,27 @@
+.c-sign-in {
+  flex-direction: column;
+  justify-content: center;
+
+  .c-heading {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  &__reset {
+    text-align: center;
+    color: $color-font-secondary;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 24px;
+    margin-bottom: 0;
+  }
+
+  .ant-btn {
+    width: 150px;
+  }
+}
+
+.logo-text {
+  color: #34779a;
+  font-weight: 600;
+}

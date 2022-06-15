@@ -1,0 +1,52 @@
+.ant-breadcrumb,
+.ant-breadcrumb > span:last-child {
+  color: #484b4f;
+}
+
+.ant-breadcrumb > span:last-child {
+  .breadcrumb__item {
+    .breadcrumb__name {
+      display: initial;
+    }
+  }
+}
+
+.breadcrumb {
+  &__item {
+    cursor: pointer;
+  }
+
+  .anticon {
+    display: none;
+  }
+
+  .ant-dropdown-trigger {
+    cursor: pointer;
+  }
+
+  &__name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    display: none;
+    margin-left: 8px;
+    text-transform: capitalize;
+  }
+
+  &__image {
+    img {
+      width: 16px;
+      height: 16px;
+      margin-bottom: 7px;
+    }
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+
+  .ant-breadcrumb-separator {
+    margin: 0 2px;
+  }
+}

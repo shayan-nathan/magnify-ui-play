@@ -1,0 +1,16 @@
+.c-sources--inline {
+  display: inline-flex;
+  padding-left: 0;
+
+  .c-source__item {
+    border: 0;
+
+    img {
+      margin: 0 10px;
+    }
+  }
+}
+
+.c-plus--sign {
+  color: $color-gray-2;
+}

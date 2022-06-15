@@ -1,0 +1,29 @@
+.c-button--right {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+#add_user_form {
+  .ant-form-item-label > label {
+    text-align: center;
+    font-weight: 600;
+  }
+
+  .ant-input-password,
+  .ant-form-item-control-input-content {
+    height: 40px;
+  }
+}
+
+.remove-user--modal {
+  .ant-modal-body {
+    text-align: center;
+    font-size: 16px;
+
+    @include media-gt-md {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+  }
+}

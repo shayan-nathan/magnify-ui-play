@@ -1,0 +1,59 @@
+.criteria-input-group {
+  $input-border-color: #ebebeb;
+
+  div.ant-select.ant-select-single.ant-select-lg,
+  .ant-input-group > .ant-input:not(:first-child):not(:last-child) {
+    height: 50px;
+
+    .ant-select-selection-item {
+      line-height: 50px;
+    }
+  }
+
+  input.ant-input,
+  div.ant-input-number.ant-input-number-lg {
+    width: calc(100% - 132px);
+    height: 50px;
+    border: none;
+    border-left: 1px solid $input-border-color;
+
+    .ant-input-number-input-wrap {
+      line-height: 50px;
+    }
+
+    &.range-number-input-min,
+    &.range-number-input-max {
+      width: calc((100% - 131px) / 2);
+      text-align: center;
+      border: none;
+      border-left: 1px solid $input-border-color;
+    }
+
+    .ant-input-number-handler-wrap {
+      opacity: 1;
+      margin-right: 10px;
+
+      .ant-input-number-handler-up-inner {
+        transform: rotate(180deg);
+        top: 75%;
+      }
+
+      .ant-input-number-handler-down-inner {
+        top: 25%;
+      }
+
+      .ant-input-number-handler {
+        border: none;
+      }
+    }
+  }
+
+  .ant-input-number:focus,
+  .ant-input-number-focused,
+  .ant-input:focus,
+  .ant-input-focused {
+    box-shadow: none;
+    border: none;
+    border-left: 1px solid $input-border-color;
+  }
+}
